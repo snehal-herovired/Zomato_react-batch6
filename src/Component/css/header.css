@@ -1,0 +1,7 @@
+.header{
+    height: 7%;
+    width: 100%;
+    background-color: lightblue;
+    display: flex;
+    justify-content: space-around;
+}

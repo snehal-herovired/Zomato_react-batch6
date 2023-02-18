@@ -1,0 +1,14 @@
+.filter{
+    height: 8%;
+    width: 100%;
+    background-color: lightgoldenrodyellow;
+    display: flex;
+    align-items: center;
+    padding: 3px;
+}
+
+.btn-filter{
+    height: 50%;
+    width: 10%;
+    margin-left: 3px;
+}

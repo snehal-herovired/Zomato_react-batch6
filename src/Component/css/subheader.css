@@ -1,0 +1,16 @@
+.option{
+    height: 100%;
+    width: 100%;
+    display: flex;
+     align-items: center;
+}
+.option>div{
+    margin-left: 5px;
+}
+.subheader{
+    height: 8%;
+    width: 100%;
+    background-color: lightgray;
+    display: flex;
+    align-items: center;
+}

@@ -1,0 +1,25 @@
+
+.modal{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login{
+    height: 25%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    opacity: .8;
+}
+.cross{
+    height: 25%;
+    width: 10%;
+    font-size: larger;
+    background-color: lightblue;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
