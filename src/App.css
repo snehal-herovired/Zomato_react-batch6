@@ -1,4 +1,6 @@
-html,body,#root{
+html,
+body,
+#root {
   height: 100%;
   width: 100%;
   /* background-color: red; */
@@ -6,7 +8,10 @@ html,body,#root{
   padding: 0;
 }
 
+#root {
+  padding: 20px 200px 0px 200px;
+}
 
-*{
+* {
   box-sizing: border-box;
 }

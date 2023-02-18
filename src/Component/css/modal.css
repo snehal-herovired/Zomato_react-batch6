@@ -1,25 +1,48 @@
-
-.modal{
+.modal {
     height: 100%;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: rgb(29, 28, 28);
 }
-.login{
-    height: 25%;
-    width: 30%;
+
+.login {
+    height: 350px;
+    width: 500px;
     display: flex;
     flex-direction: column;
-    opacity: .8;
+    background-color: white;
+    position: relative;
+    padding-top: 50px;
+    border-radius: 15px;
 }
-.cross{
-    height: 25%;
-    width: 10%;
-    font-size: larger;
-    background-color: lightblue;
+
+.cross {
+    left: 98%;
+    bottom: 98%;
+    position: absolute;
+    text-align: center;
+    color: white;
+    background-color: rgb(224, 127, 127);
     border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    cursor: pointer;
+    height: 50px;
+    width: 50px;
+    line-height: 1;
+    font-size: 36px;
+}
+
+.login input[type=text],
+input[type=submit] {
+    height: 50px;
+    padding: 10px;
+    font-size: 22px;
+    margin: 16px 15px 16px 15px;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
+.login input[type=submit] {
+    background-color: rgb(94, 189, 137);
 }
