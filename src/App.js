@@ -10,25 +10,28 @@ function App() {
   const [openModal, setOpenModal] = useState(false)
 
   // making state in order to showe filter data
-  const [deliveryfilters,setdeliveryfilters] =useState(false)
-  const [dineoutfilters,setdinoutfilters] =useState(false)
-  
+  const [deliveryfilters, setdeliveryfilters] = useState(false)
+  const [dineoutfilters, setdinoutfilters] = useState(false)
+  const [nightlifefilters, setnightlifefilters] = useState(false)
+
+
 
   return (
     <>
       {
-        openModal && <Modal setOpenModal={ setOpenModal} />
+        openModal && <Modal setOpenModal={setOpenModal} />
       }
-      <Header setOpenModal={ setOpenModal} />
-      <Subheader setdeliveryfilters={setdeliveryfilters} setdinoutfilters={setdinoutfilters} />
+      <Header setOpenModal={setOpenModal} />
+      <Subheader setdeliveryfilters={setdeliveryfilters} setdinoutfilters={setdinoutfilters} setnightlifefilters={setnightlifefilters} />
       <Filters setdeliveryfilters={setdeliveryfilters}
-      deliveryfilters={deliveryfilters}
-      dineoutfilters={dineoutfilters}
-      setdinoutfilters={setdinoutfilters}
-      
-      
+        deliveryfilters={deliveryfilters}
+        dineoutfilters={dineoutfilters}
+        setdinoutfilters={setdinoutfilters}
+        nightlifefilters={nightlifefilters}
+
+
       />
-      <Collections/>
+      <Collections />
     </>
   );
 }
