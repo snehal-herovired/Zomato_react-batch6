@@ -1,13 +1,13 @@
 import React from 'react';
 import "./css/header.css"
-const Header = ({ setOpenModal }) => {
+const Header = ({ setOpenModal, setOpenSingupModal }) => {
     return (
         <>
             <div className='header'>
                 <div className='logo'></div>
-                <input type="text" placeholder='Search for Restraunt, Cuisine or a Dish' />
+                <div className='searchbar-container'><i className="fa fa-search" aria-hidden="true"></i><input type="text" placeholder='Search for Restraunt, Cuisine or a Dish' /></div>
                 <button onClick={() => setOpenModal(true)}>Login</button>
-                <button onClick={() => setOpenModal(true)}>Signup</button>
+                <button onClick={() => setOpenSingupModal(true)}>Signup</button>
             </div>
 
         </>

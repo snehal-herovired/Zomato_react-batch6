@@ -4,10 +4,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(29, 28, 28);
+    background-color: rgba(29, 28, 28, 0.753);
+    position: absolute;
+    z-index: 99;
 }
 
-.login {
+.login-signup {
     height: 350px;
     width: 500px;
     display: flex;
@@ -33,7 +35,7 @@
     font-size: 36px;
 }
 
-.login input[type=text],
+.login-signup input[type=text],
 input[type=submit] {
     height: 50px;
     padding: 10px;
@@ -43,6 +45,6 @@ input[type=submit] {
     border-radius: 5px;
 }
 
-.login input[type=submit] {
+.login-signup input[type=submit] {
     background-color: rgb(94, 189, 137);
 }

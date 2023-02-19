@@ -1,19 +1,19 @@
 let data = [
     {
         id: 1,
-        filter:"deliverytime"
+        filter: "delivery time"
     },
     {
         id: 2,
-        filter:"ratings"
+        filter: "ratings"
     },
     {
         id: 3,
-        filter:"pure-veg"
+        filter: "pure-veg"
     },
     {
         id: 4,
-        filter:"cuisines"
+        filter: "cuisines"
     },
 ]
 export default data;

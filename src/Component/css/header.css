@@ -21,6 +21,13 @@
     width: 500px;
     padding: 10px;
     border: none;
+    padding-left: 34px;
+}
+
+.header input[type="text"]:focus {
+    box-shadow: 0 0 7px 0;
+    border: none;
+    outline: none;
 }
 
 .header button {
@@ -30,5 +37,18 @@
     border: none;
     color: grey;
     cursor: pointer;
+}
 
+.searchbar-container {
+    height: 100%;
+    width: 600px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.searchbar-container i {
+    position: absolute;
+    left: 5px;
+    font-size: 22px;
 }

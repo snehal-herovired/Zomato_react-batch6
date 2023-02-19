@@ -1,5 +1,6 @@
 import React from 'react';
 import "./css/subheader.css"
+
 const Subheader = ({ setdeliveryfilters, setdinoutfilters, setnightlifefilters }) => {
 
     function handledelivery() {
@@ -20,9 +21,9 @@ const Subheader = ({ setdeliveryfilters, setdinoutfilters, setnightlifefilters }
     return (
         <div className='subheader'>
             <div className='option'>
-                <div onClick={handledelivery}>Delivery</div>
-                <div onClick={handledinout}>Dineout</div>
-                <div onClick={handleNightLife}>Nightlife</div>
+                <div onClick={handledelivery}><i class="fa fa-truck"></i> Delivery</div>
+                <div onClick={handledinout}><i class="fa fa-cutlery"></i> Dineout</div>
+                <div onClick={handleNightLife}><i class="fa fa-beer"></i> Nightlife</div>
             </div>
         </div>
     );
