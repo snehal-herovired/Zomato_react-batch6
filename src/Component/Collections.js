@@ -1,9 +1,12 @@
 import React from 'react';
-
+import collectionData from "../mockdata/Collections"
 const Collections = () => {
     return (
         <div>
-            collections
+            {
+                
+            }
+            
         </div>
     );
 }
